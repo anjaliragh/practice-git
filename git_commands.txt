@@ -1,0 +1,41 @@
+// website to visualize git: http://git-school.github.io/visualizing-git/
+
+- taking repository first time from remote
+	git clone <path-to-remote-url>
+
+- see changed files
+	git status
+
+- ready new changes (files) to commit
+	git add <file-path>
+	git add . // add all files
+
+- remove file changes (which is not added yet)
+	git checkout <file-path>
+	git checkout .
+
+- see file changes as difference
+	git diff <file-path>
+	git diff // all files
+
+- create commit
+	git commit
+	git commit -m "commit message"
+	git commit -am "commit message" // (git add .) + (git commit -m)
+
+- push changes (commits) from local master to origin/master
+	git push origin master
+
+- pull (take) changes from remote
+	git pull // defaults to merge
+	git pull --rebase // it rebases instead of merge
+
+- see list of commits (commits log)
+	git log
+
+- goto a branch
+	git checkout <branch-name>
+
+- create new branch and goto that branch
+	git checkout -b <new-branch-name>
+	// (git branch <new-branch-name>) + (git checkout <new-branch-name>)
