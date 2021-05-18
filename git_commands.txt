@@ -33,6 +33,9 @@
 - see list of commits (commits log)
 	git log
 
+- see local branch with current branch marked
+	git branch
+
 - goto a branch
 	git checkout <branch-name>
 
